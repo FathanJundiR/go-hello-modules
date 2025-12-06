@@ -8,3 +8,5 @@
   - Buat file codingan
   - add -> commit
   - `git push -u origin main`
+  - `git tag v1.0.0` nama tag untuk version pakai `v` depannya
+  - `git push origin v1.0.0`
