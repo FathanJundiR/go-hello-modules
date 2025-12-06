@@ -1,0 +1,10 @@
+- Buat repository baru di github
+- Buat modules di local:
+  - Bikin folder baru
+  - `go mod init link_repo_github`
+  - `git init`
+  - `git branch -M main`
+  - `git remote add origin link_ssh`
+  - Buat file codingan
+  - add -> commit
+  - `git push -u origin main`
