@@ -41,3 +41,8 @@ After: github.com/FathanJundiR/go-hello-modules/v2
 - git add commit push
 - `git tag v2.0.0`
 - `git push origin v2.0.0`
+
+## Di app-hello
+- Delete `require github.com/FathanJundiR/go-hello-modules` yang ada di `go.mod`
+- `go get github.com/FathanJundiR/go-hello-modules/v2`
+- Ubah `import` dan main code di `main.go`
