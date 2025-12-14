@@ -29,3 +29,15 @@ Best practicenya tiap ada perubahan, dibikin tag baru walaupun minor.
 - Ubah versinya di file `go.mod`
 - `go get`
 
+# Major Upgrade Module
+Major upgrade biasanya yg breaking changes.
+Biasanyav diganti nama module di go.mod dan tag version dinaikkan.
+Before: github.com/FathanJundiR/go-hello-modules
+After: github.com/FathanJundiR/go-hello-modules/v2
+
+## Di go-hello
+- Buat changes
+- ganti isi go.mod `module github.com/FathanJundiR/go-hello-modules/v2`
+- git add commit push
+- `git tag v2.0.0`
+- `git push origin v2.0.0`
